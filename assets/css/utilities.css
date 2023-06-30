@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #4d8d34;
+    --primary-color-dark: #4d8d34;
+    --color-light: #fff;
+    --color-dark: #000;
+    --bg-dark: #333;
+    --bg-light: #fff;
+}
+
+.text-primary-color {
+    color: var(--primary-color);
+}
+
+.text-light-color {
+    color: var(--text-color-light);
+}
+
+ /* BOTÕES  */
+.btn {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn-color {
+    background: var(--primary-color);
+    color: var(--text-color-light);
+}
+
+.btn-dark {
+    background: var(--bg-dark);
+    color: var(--color-light);
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/* BACKGROUNDS */
+.bg-color {
+    background: var(--primary-color);
+    color: var(--color-light);
+}
+
+.bg-dark {
+    background: var(--bg-dark);
+    color: var(--text-color-light);
+}
+
+.bg-light {
+    background: var(--bg-light);
+    color: var(--color-dark);
+}
